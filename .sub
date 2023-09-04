@@ -1,0 +1,65 @@
+universe = vanilla
+executable = /afs/cern.ch/user/j/jtariq/POWHEG-BOX-V2/Z///testrun-lhc-8TeV/./../pwhg_main
+log =log/.log.
+error = log/.error.-
+output =log/.output.-
+When_to_transfer_output = ON_EXIT
+request_cpus   = 20
++jobflavour=tomorrow
+notification = always
+notify_user = junaid.tariq@cern.ch
+should_transfer_files = YES
+transfer_input_files =///testrun-lhc-8TeV/powheg.input,/pwhg_main 
+queue 1
+universe = vanilla
+executable = /afs/cern.ch/user/j/jtariq/POWHEG-BOX-V2/Z///testrun-lhc-8TeV/./../pwhg_main
+log =log/.log. 
+error = log/.error.-
+output =log/.output.- 
+When_to_transfer_output = ON_EXIT
+request_cpus   = 20
++jobflavour=tomorrow
+notification = always
+notify_user = junaid.tariq@cern.ch
+should_transfer_files = YES
+transfer_input_files =///testrun-lhc-8TeV/powheg.input,/pwhg_main 
+queue 1
+universe = vanilla
+executable = /afs/cern.ch/user/j/jtariq/POWHEG-BOX-V2/Z///testrun-lhc-8TeV/./../pwhg_main
+log =log/.log.' ' 
+error = log/.error.''-''
+output =log/.output.- 
+When_to_transfer_output = ON_EXIT
+request_cpus   = 20
++jobflavour=tomorrow
+notification = always
+notify_user = junaid.tariq@cern.ch
+should_transfer_files = YES
+transfer_input_files =///testrun-lhc-8TeV/powheg.input,/pwhg_main 
+queue 1
+universe = vanilla
+executable = /afs/cern.ch/user/j/jtariq/POWHEG-BOX-V2/Z///testrun-lhc-8TeV/./../pwhg_main
+log =log/.log.$(cluster) 
+error = log/.error.$(cluster)-$(process)
+output =log/.output.$(cluster)-$(process) 
+When_to_transfer_output = ON_EXIT
+request_cpus   = 20
++jobflavour=tomorrow
+notification = always
+notify_user = junaid.tariq@cern.ch
+should_transfer_files = YES
+transfer_input_files =///testrun-lhc-8TeV/powheg.input,/pwhg_main 
+queue 1
+universe = vanilla
+executable = /afs/cern.ch/user/j/jtariq/POWHEG-BOX-V2/Z///testrun-lhc-8TeV/./../pwhg_main
+log =log/.log.$(cluster) 
+error = log/.error.$(cluster)-$(process)
+output =log/.output.$(cluster)-$(process) 
+When_to_transfer_output = ON_EXIT
+request_cpus   = 20
++jobflavour=tomorrow
+notification = always
+notify_user = junaid.tariq@cern.ch
+should_transfer_files = YES
+transfer_input_files =///testrun-lhc-8TeV/powheg.input,/pwhg_main 
+queue 1

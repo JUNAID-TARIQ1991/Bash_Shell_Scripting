@@ -1,0 +1,17 @@
+#! /bin/bash
+
+echo 'Removing' $PWD/$1
+rm -rf $1
+
+scriptname=$0
+inputname=$1
+currentdir=$PWD
+
+echo 'Creating' $currentdir/$inputname
+echo ''
+mkdir -p $currentdir/$inputname
+
+echo 'Changing Directory to '$currentdir/$inputname
+cd $currentdir/$1
+
+
